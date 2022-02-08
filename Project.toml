@@ -1,0 +1,19 @@
+name = "ASEN6519"
+uuid = "3a2c6d58-fcee-4574-a0e0-d3b7113aeea5"
+authors = ["kandai <kandai.wata@gmail.om>"]
+version = "0.1.0"
+
+[deps]
+CDDLib = "3391f64e-dcde-5f30-b752-e11513730f60"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+HybridSystems = "2207ec0c-686c-5054-b4d2-543502888820"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+Weave = "44d3d7a6-8a23-5bf8-98c5-b353f8df5ec9"
