@@ -10,5 +10,9 @@ julia
 
 # Run an example
 ```bash
-julia examples/HW1/q1.jl
+julia --project examples/HW1/q1.jl
+```
+
+```bash
+julia --project examples/HW1/q3.jl
 ```
