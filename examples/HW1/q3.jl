@@ -43,4 +43,4 @@ X = X'
 state_labels = ["Tank1" "Tank2"]
 ps = plot_hybrid_state(time, X, Q, state_labels)
 plot(ps[1], ps[2])
-savefig("HW1_Q3.png")
+savefig("examples/HW1/HW1_Q3.png")

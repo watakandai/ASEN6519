@@ -6,6 +6,7 @@ version = "0.1.0"
 [deps]
 CDDLib = "3391f64e-dcde-5f30-b752-e11513730f60"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 HybridSystems = "2207ec0c-686c-5054-b4d2-543502888820"

@@ -106,4 +106,4 @@ state_labels = ["θ" "ω"]
 ps = plot_hybrid_state(time, X, Q, state_labels)
 p2 = plot(time, E, lw=3, label="Energy")
 plot(ps[1], ps[2], p2, layout=(1, 3), size=(900, 400))
-savefig("HW1_Q1_$(x1).png")
+savefig("examples/HW1/HW1_Q1_$(x1).png")
