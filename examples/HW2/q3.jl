@@ -36,8 +36,15 @@ end
 
 # Question a
 h = HybridSystem()
-A1 = [[-1, 10] [-100, -1]]
-A2 = [[-1, 100] [-10, -1]]
+A1 = [[-1, -100] [10, -1]]
+A2 = [[-1, -10] [100, -1]]
+A3 = 1/2 * A1 + 1/2 * A2
+@show A1
+@show A2
+@show A3
+val, vec = eigen(A3)
+@show val
+
 f1(x, t) = A1 * x
 f2(x, t) = A2 * x
 g1(x) = x[1]*x[2] <= 0
